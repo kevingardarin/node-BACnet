@@ -1,7 +1,7 @@
 {
   "name": "BACnet",
-  "version": "0.0.1-beta.14",
-  "description": "A test code",
+  "version": "0.0.1",
+  "description": "A BACnet node",
   "main": "index.js",
   "scripts": {
     "changelog": "commitlint --from=origin/master",
