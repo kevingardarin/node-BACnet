@@ -10,7 +10,7 @@ Add Node BACnet to your project by using:
 In your package.json :
 ``` sh
 "dependencies": {
-    "BACnet": "git+https://github.com/kevingardarin/node-testcode.git",
+    "BACnet": "git+https://github.com/kevingardarin/node-BACnet.git",
 },
 ```
 And execute :
