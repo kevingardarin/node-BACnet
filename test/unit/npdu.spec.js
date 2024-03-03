@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baNpdu = require('../../lib/npdu');
 
-describe('testcode - NPDU layer', () => {
+describe('BACnet - NPDU layer', () => {
   it('should successfully decode the NPDU function', () => {
     const result = baNpdu.decodeFunction([0, 1, 12], 1);
     expect(result).toEqual(12);

@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer SubscribeProperty unit', () => {
+describe('BACnet - Services layer SubscribeProperty unit', () => {
   it('should successfully encode and decode with cancellation request', () => {
     const buffer = utils.getBuffer();
     baServices.subscribeProperty.encode(buffer, 7, {type: 148, instance: 362}, true, false, 1, {id: 85, index: 0xFFFFFFFF}, true, 1);

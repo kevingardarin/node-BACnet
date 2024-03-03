@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer WhoIs unit', () => {
+describe('BACnet - Services layer WhoIs unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     baServices.whoIs.encode(buffer, 1, 3000);

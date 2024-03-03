@@ -2,7 +2,7 @@
 
 const baAsn1 = require('../../lib/asn1');
 
-describe('testcode - ASN1 layer', () => {
+describe('BACnet - ASN1 layer', () => {
   describe('decodeUnsigned', () => {
     it('should fail if unsuport length', () => {
       expect(() => baAsn1.decodeUnsigned(Buffer.from([0xFF, 0xFF]), 0, 5)).toThrow('outside buffer bounds');

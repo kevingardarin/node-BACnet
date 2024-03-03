@@ -4,7 +4,7 @@ const utils = require('./utils');
 const baServices = require('../../lib/services');
 const baEnum = require('../../lib/enum');
 
-describe('testcode - Services layer AlarmAcknowledge unit', () => {
+describe('BACnet - Services layer AlarmAcknowledge unit', () => {
   it('should successfully encode and decode with time timestamp', () => {
     const buffer = utils.getBuffer();
     const eventTime = new Date(1, 1, 1);

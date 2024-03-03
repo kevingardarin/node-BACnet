@@ -1,14 +1,14 @@
 FROM node:16-alpine
 
 # Set working directory
-WORKDIR /testcode
+WORKDIR /BACnet
 
 # Install dependencies
 COPY package.json .
 COPY yarn.lock .
 RUN yarn --frozen-lockfile
 
-# Add node-testcode
+# Add node-BACnet
 Add . .
 
 # Run compliance tests

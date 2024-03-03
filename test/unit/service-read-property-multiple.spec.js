@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer ReadPropertyMultiple unit', () => {
+describe('BACnet - Services layer ReadPropertyMultiple unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     baServices.readPropertyMultiple.encode(buffer, [

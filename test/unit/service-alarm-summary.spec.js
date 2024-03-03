@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer AlarmSummary unit', () => {
+describe('BACnet - Services layer AlarmSummary unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     baServices.alarmSummary.encode(buffer, [

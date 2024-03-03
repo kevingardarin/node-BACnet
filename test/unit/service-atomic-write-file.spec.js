@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer AtomicWriteFile unit', () => {
+describe('BACnet - Services layer AtomicWriteFile unit', () => {
   it('should successfully encode and decode as stream', () => {
     const buffer = utils.getBuffer();
     baServices.atomicWriteFile.encode(buffer, true, {type: 12, instance: 51}, 5, [[12, 12]]);

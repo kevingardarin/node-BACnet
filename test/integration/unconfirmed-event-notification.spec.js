@@ -2,7 +2,7 @@
 
 const utils = require('./utils');
 
-describe('testcode - unconfirmedEventNotification integration', () => {
+describe('BACnet - unconfirmedEventNotification integration', () => {
   it('should correctly send a telegram', () => {
     const client = new utils.bacnetClient({apduTimeout: 200});
     const date = new Date();

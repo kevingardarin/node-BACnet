@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer DeviceCommunicationControl unit', () => {
+describe('BACnet - Services layer DeviceCommunicationControl unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     baServices.deviceCommunicationControl.encode(buffer, 30, 1);

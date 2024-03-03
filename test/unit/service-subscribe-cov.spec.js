@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer SubscribeCOV unit', () => {
+describe('BACnet - Services layer SubscribeCOV unit', () => {
   it('should successfully encode and decode a cancelation request', () => {
     const buffer = utils.getBuffer();
     baServices.subscribeCov.encode(buffer, 10, {type: 3, instance: 1}, true);

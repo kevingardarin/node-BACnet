@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer CreateObject unit', () => {
+describe('BACnet - Services layer CreateObject unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     const date = new Date(1, 1, 1);

@@ -52,7 +52,7 @@ Besides the `unit` and `integration` test-sets, which are ensuring functionality
 using synthetical data, the  `compliance` test-set is using a well established
 3rd BACNET device emulator to test against. It uses the same test setup with
 [Jest](https://jestjs.io/) and [Istanbul](https://istanbul.js.org/), but runs
-inside a Docker container, while using the [testcode Compliance Docker](https://github.com/fh1ch/testcode-compliance-docker)
+inside a Docker container, while using the [BACnet Compliance Docker](https://github.com/fh1ch/BACnet-compliance-docker)
 image to test against.
 
 The compliance tests can be executed locally and require Docker and

@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer PrivateTransfer unit', () => {
+describe('BACnet - Services layer PrivateTransfer unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     baServices.privateTransfer.encode(buffer, 255, 8, [1, 2, 3, 4, 5]);

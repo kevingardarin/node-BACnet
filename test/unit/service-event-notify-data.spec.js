@@ -4,7 +4,7 @@ const utils = require('./utils');
 const baServices = require('../../lib/services');
 const baEnum = require('../../lib/enum');
 
-describe('testcode - Services layer EventNotifyData unit', () => {
+describe('BACnet - Services layer EventNotifyData unit', () => {
   it('should successfully encode and decode a change of bitstring event', () => {
     const buffer = utils.getBuffer();
     const date = new Date();

@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baBvlc = require('../../lib/bvlc');
 
-describe('testcode - BVLC layer', () => {
+describe('BACnet - BVLC layer', () => {
   it('should successfuly encode and decode a package', () => {
     const buffer = utils.getBuffer();
     baBvlc.encode(buffer.buffer, 10, 1482);

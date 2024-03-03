@@ -2,7 +2,7 @@
 
 const utils = require('./utils');
 
-describe('testcode - readPropertyMultiple integration', () => {
+describe('BACnet - readPropertyMultiple integration', () => {
   it('should return a timeout error if no device is available', (next) => {
     const client = new utils.bacnetClient({apduTimeout: 200});
     const requestArray = [

@@ -3,7 +3,7 @@
 const utils = require('./utils');
 const baServices = require('../../lib/services');
 
-describe('testcode - Services layer TimeSync unit', () => {
+describe('BACnet - Services layer TimeSync unit', () => {
   it('should successfully encode and decode', () => {
     const buffer = utils.getBuffer();
     const date = new Date();

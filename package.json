@@ -1,5 +1,5 @@
 {
-  "name": "testcode",
+  "name": "BACnet",
   "version": "0.0.1-beta.14",
   "description": "A test code",
   "main": "index.js",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevingardarin/node-testcode.git"
+    "url": "git+https://github.com/kevingardarin/node-BACnet.git"
   },
   "keywords": [
-    "testcode"
+    "BACnet"
   ],
   "author": {
     "name": "Kevin GARDARIN",

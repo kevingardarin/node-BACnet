@@ -2,7 +2,7 @@
 
 const bacnet = require('../../');
 
-describe('testcode - whoIs compliance', () => {
+describe('BACnet - whoIs compliance', () => {
   let client;
 
   beforeEach(() => client = new bacnet({apduTimeout: 1000}));

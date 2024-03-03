@@ -13,7 +13,7 @@ on something like Docker an use it's internal network (e.g. see
 
 ## I receive the error `ERR_TIMEOUT`. What does this mean?
 
-The error type `ERR_TIMEOUT` is created by Node testcode itself, if no answer
+The error type `ERR_TIMEOUT` is created by Node BACnet itself, if no answer
 has been received from a target device in the defined timeout window. This can
 have a variety of root-causes like issues on the remote device itself (e.g.
 communication disabled), network issues (e.g. wrong network topology), wrong
@@ -48,7 +48,7 @@ available BACnet browsers. This verifies, if the attempted function itself works
 with the target device and rules-out other issues like connectivity.
 
 This stack also has internal debug messages, which can be enabled with
-`export DEBUG=testcode`. It will print all sorts of internals to the console,
+`export DEBUG=BACnet`. It will print all sorts of internals to the console,
 which can be used to get an idea, if or why messages are getting dropped.
 
 Another powerful tool to not only identify network issues, but also verify sent

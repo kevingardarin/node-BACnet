@@ -2,7 +2,7 @@
 
 const utils = require('./utils');
 
-describe('testcode - whoIs integration', () => {
+describe('BACnet - whoIs integration', () => {
   it('should not invoke a event if no device is available', (next) => {
     const client = new utils.bacnetClient({apduTimeout: 200});
     client.on('iAm', (address, deviceId, maxApdu, segmentation, vendorId) => {

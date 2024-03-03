@@ -2,7 +2,7 @@
 
 const utils = require('./utils');
 
-describe('testcode - writePropertyMultiple integration', () => {
+describe('BACnet - writePropertyMultiple integration', () => {
   it('should return a timeout error if no device is available', (next) => {
     const client = new utils.bacnetClient({apduTimeout: 200});
     const values = [
